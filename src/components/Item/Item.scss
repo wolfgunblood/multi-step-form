@@ -1,0 +1,21 @@
+.item-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    .item-number{
+        width: 20px;
+        height: 20px;
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item-content{
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+        gap: 0;
+    }
+}
