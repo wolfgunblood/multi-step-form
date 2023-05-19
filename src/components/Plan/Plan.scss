@@ -1,0 +1,12 @@
+.plan-container{
+    display: flex;
+    flex-direction: column;
+    // gap: 30px;
+    h2{
+        margin-bottom: 0;
+    }
+    p{
+        margin-top: 2.5px;
+        margin-bottom: 30px;
+    }
+}

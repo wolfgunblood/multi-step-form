@@ -4,10 +4,9 @@ import "./Personal.scss";
 const Personal = () => {
     return (
         <div className='personal-container'>
-            <div>
-                <h2>Personal Info</h2>
-                <p>Please fill in your name,email and address</p>
-            </div>
+            <h2>Personal Info</h2>
+            <p>Please fill in your name,email and address</p>
+
             <form>
                 <label htmlFor="name">
                     Name
