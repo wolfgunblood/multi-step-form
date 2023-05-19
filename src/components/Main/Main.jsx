@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./Main.scss"
+import Personal from '../Personal/Personal';
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <div className='main-container'>
+      <Personal />
+    </div>
   )
 }
 

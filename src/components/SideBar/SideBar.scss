@@ -1,14 +1,13 @@
-
 .sidebar-container {
-    height: 568px;
-    width: 274px;
-    background-image: url('../../assets//images/bg-sidebar-desktop.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    // background-position: center;
+  height: 100%;
+  width: 325px;
+  background-image: url('../../assets//images/bg-sidebar-desktop.svg');
+  background-size:contain;
+  background-repeat: no-repeat;
+  // background-position: center;
 
-    display: flex;
-    flex-direction: column;
-    padding: 2%;
-    align-items: center;
-  }
+  display: flex;
+  flex-direction: column;
+  // padding: 2%;
+  align-items: center;
+}

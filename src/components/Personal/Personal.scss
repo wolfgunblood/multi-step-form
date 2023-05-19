@@ -1,0 +1,22 @@
+.personal-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+        label{
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            input{
+                padding: 2%;
+                // border-radius: 2px;
+            }
+        }
+    }
+    
+}
